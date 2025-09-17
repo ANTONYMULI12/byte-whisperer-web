@@ -5,42 +5,42 @@ import { Brain, Database, BarChart3, Code, TrendingUp, Zap } from "lucide-react"
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Machine Learning",
+      title: "AI & Automation",
       icon: Brain,
       skills: [
-        { name: "Python/R", level: 95 },
-        { name: "TensorFlow/PyTorch", level: 90 },
-        { name: "Scikit-learn", level: 92 },
-        { name: "Deep Learning", level: 88 }
+        { name: "AI Tools (ChatGPT)", level: 90 },
+        { name: "Business Productivity", level: 95 },
+        { name: "Process Automation", level: 85 },
+        { name: "Data Analysis", level: 80 }
       ]
     },
     {
-      title: "Data Engineering",
+      title: "Technical Skills",
       icon: Database,
       skills: [
-        { name: "SQL/NoSQL", level: 94 },
-        { name: "Apache Spark", level: 85 },
-        { name: "ETL Pipelines", level: 90 },
-        { name: "Cloud Platforms", level: 87 }
+        { name: "Microsoft Office Suite", level: 95 },
+        { name: "Google Workspace", level: 92 },
+        { name: "Data Entry & Management", level: 98 },
+        { name: "CRM Tools", level: 88 }
       ]
     },
     {
-      title: "Visualization",
+      title: "Web Development",
       icon: BarChart3,
       skills: [
-        { name: "Tableau/PowerBI", level: 92 },
-        { name: "D3.js", level: 80 },
-        { name: "Matplotlib/Seaborn", level: 95 },
-        { name: "Plotly", level: 88 }
+        { name: "HTML/CSS", level: 85 },
+        { name: "JavaScript", level: 80 },
+        { name: "GitHub", level: 85 },
+        { name: "Canva Design", level: 90 }
       ]
     }
   ];
 
   const tools = [
-    { name: "Python", icon: Code },
-    { name: "Statistics", icon: TrendingUp },
-    { name: "MLOps", icon: Zap },
-    { name: "Big Data", icon: Database }
+    { name: "Virtual Assistance", icon: Code },
+    { name: "Customer Service", icon: TrendingUp },
+    { name: "AI Integration", icon: Zap },
+    { name: "Data Management", icon: Database }
   ];
 
   return (
@@ -48,11 +48,11 @@ const Skills = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Technical Expertise
+            Core Competencies
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive skill set spanning the entire data science lifecycle, 
-            from data collection to model deployment.
+            Diverse skill set combining technical expertise, AI tools, and business acumen 
+            to drive data-driven solutions and organizational growth.
           </p>
         </div>
 

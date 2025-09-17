@@ -36,19 +36,19 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      content: "contact@datascientist.com",
-      href: "mailto:contact@datascientist.com"
+      content: "muliantony146@gmail.com",
+      href: "mailto:muliantony146@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      content: "+254 112 327 787",
+      href: "tel:+254112327787"
     },
     {
       icon: MapPin,
       title: "Location",
-      content: "San Francisco, CA",
+      content: "Nairobi, Kenya",
       href: "#"
     }
   ];
@@ -57,13 +57,13 @@ const Contact = () => {
     {
       icon: Linkedin,
       name: "LinkedIn",
-      href: "#",
+      href: "https://linkedin.com/in/antony-muli-45304933a",
       color: "hover:text-blue-600"
     },
     {
       icon: Github,
       name: "GitHub", 
-      href: "#",
+      href: "https://github.com/ANTONYMULI12",
       color: "hover:text-gray-700"
     },
     {
@@ -82,8 +82,8 @@ const Contact = () => {
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to unlock the potential in your data? Let's discuss how we can 
-            collaborate to drive your business forward with data science.
+            Ready to discuss data science opportunities or collaboration? Let's connect 
+            and explore how we can work together to create data-driven solutions.
           </p>
         </div>
 
@@ -163,9 +163,9 @@ const Contact = () => {
                 Get in Touch
               </h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                I'm always interested in discussing new opportunities, 
-                collaborations, or just chatting about data science and AI. 
-                Don't hesitate to reach out!
+                I'm actively seeking opportunities in data science and open to discussing 
+                new projects, collaborations, or just connecting with fellow professionals 
+                in the field. Let's explore how we can work together!
               </p>
             </div>
 
@@ -198,6 +198,8 @@ const Contact = () => {
                   <a
                     key={index}
                     href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className={`p-3 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-smooth ${social.color}`}
                     aria-label={social.name}
                   >

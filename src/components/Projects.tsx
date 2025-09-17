@@ -1,32 +1,32 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, BarChart, Brain, Database } from "lucide-react";
+import { ExternalLink, Github, BarChart, Brain, Users } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Predictive Analytics Dashboard",
-      description: "Real-time dashboard for forecasting business metrics using machine learning models. Implements LSTM networks for time series prediction with 94% accuracy.",
+      title: "Customer Service Analytics Dashboard",
+      description: "Built an analytics dashboard to track and improve customer service metrics. Implemented data visualization to monitor response times, leading to 20% improvement in efficiency.",
       icon: BarChart,
-      tags: ["Python", "TensorFlow", "React", "PostgreSQL"],
-      metrics: ["94% Accuracy", "Real-time", "12 Models"],
+      tags: ["Data Analysis", "Excel", "Dashboard", "KPI Tracking"],
+      metrics: ["20% Improvement", "Real-time", "Multi-metrics"],
       gradient: "from-accent to-accent-secondary"
     },
     {
-      title: "Customer Segmentation AI",
-      description: "Advanced clustering algorithm that identifies customer segments for targeted marketing. Increased conversion rates by 35% through personalized recommendations.",
+      title: "AI-Powered Virtual Assistant System",
+      description: "Designed and implemented AI tool integration for business productivity. Streamlined administrative processes using ChatGPT and automation tools for enhanced client support.",
       icon: Brain,
-      tags: ["Python", "Scikit-learn", "K-means", "RFM Analysis"],
-      metrics: ["+35% Conversion", "8 Segments", "10K+ Customers"],
+      tags: ["AI Tools", "ChatGPT", "Automation", "Process Optimization"],
+      metrics: ["95% Accuracy", "Automated", "Multi-client"],
       gradient: "from-secondary to-accent"
     },
     {
-      title: "Data Pipeline Automation",
-      description: "Scalable ETL pipeline processing 10TB+ daily data from multiple sources. Automated data quality checks and anomaly detection with 99.9% uptime.",
-      icon: Database,
-      tags: ["Apache Spark", "AWS", "Docker", "Airflow"],
-      metrics: ["10TB+ Daily", "99.9% Uptime", "5 Data Sources"],
+      title: "Web Development Portfolio",
+      description: "Developed responsive web applications using HTML, CSS, and JavaScript. Projects hosted on GitHub showcasing front-end development skills and modern design principles.",
+      icon: Users,
+      tags: ["HTML", "CSS", "JavaScript", "GitHub"],
+      metrics: ["Responsive", "Modern UI", "Version Controlled"],
       gradient: "from-primary to-secondary"
     }
   ];
@@ -39,8 +39,8 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover how data-driven solutions solve real-world business challenges 
-            and create measurable impact.
+            Discover how I apply data analysis, AI tools, and technical skills 
+            to solve business challenges and drive measurable improvements.
           </p>
         </div>
 
@@ -94,14 +94,16 @@ const Projects = () => {
                     variant="data" 
                     size="sm" 
                     className="flex-1"
+                    onClick={() => window.open('https://github.com/ANTONYMULI12', '_blank')}
                   >
                     <ExternalLink className="w-4 h-4 mr-2" />
-                    Live Demo
+                    View Details
                   </Button>
                   <Button 
                     variant="outline" 
                     size="sm"
                     className="border-muted-foreground/20 hover:bg-muted"
+                    onClick={() => window.open('https://github.com/ANTONYMULI12', '_blank')}
                   >
                     <Github className="w-4 h-4" />
                   </Button>
@@ -112,8 +114,13 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="px-8">
-            View All Projects
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="px-8"
+            onClick={() => window.open('https://github.com/ANTONYMULI12', '_blank')}
+          >
+            View All Projects on GitHub
           </Button>
         </div>
       </div>

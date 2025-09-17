@@ -22,21 +22,21 @@ const Hero = () => {
         <div className="mb-6 animate-fade-in">
           <div className="inline-block p-3 rounded-full bg-white/10 backdrop-blur-sm mb-4">
             <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center">
-              <span className="text-2xl font-bold text-white">DS</span>
+              <span className="text-2xl font-bold text-white">AM</span>
             </div>
           </div>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          <span className="block">Data Science</span>
+          <span className="block">Antony Muli</span>
           <span className="block bg-gradient-accent bg-clip-text text-transparent">
-            Innovation
+            Data Scientist
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
-          Transforming complex data into actionable insights through advanced analytics, 
-          machine learning, and statistical modeling.
+          Ambitious professional transitioning to Data Science, leveraging AI tools, 
+          analytics, and digital solutions to deliver actionable business insights.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -61,21 +61,25 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-12">
           <a 
-            href="#" 
+            href="https://github.com/ANTONYMULI12" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-smooth hover:scale-110"
             aria-label="GitHub"
           >
             <Github className="w-6 h-6" />
           </a>
           <a 
-            href="#" 
+            href="https://linkedin.com/in/antony-muli-45304933a" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-smooth hover:scale-110"
             aria-label="LinkedIn"
           >
             <Linkedin className="w-6 h-6" />
           </a>
           <a 
-            href="#" 
+            href="mailto:muliantony146@gmail.com" 
             className="p-3 rounded-full bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-smooth hover:scale-110"
             aria-label="Email"
           >

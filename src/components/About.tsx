@@ -6,33 +6,33 @@ const About = () => {
   const achievements = [
     {
       icon: GraduationCap,
-      title: "Education",
-      content: "M.S. in Data Science from Stanford University, B.S. in Statistics from UC Berkeley"
+      title: "Education & Certifications",
+      content: "ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate from Zindua School"
     },
     {
       icon: Award,
-      title: "Certifications",
-      content: "AWS Certified ML Specialist, Google Cloud Professional Data Engineer"
+      title: "Professional Training",
+      content: "Currently enrolled in ALX Pathway College Programme (2025), focusing on cloud computing and leadership"
     },
     {
       icon: Users,
       title: "Experience",
-      content: "5+ years leading data science teams at Fortune 500 companies"
+      content: "2+ years in customer service and virtual assistance at Quest Holdings Limited"
     },
     {
       icon: Target,
       title: "Impact",
-      content: "Delivered $10M+ in business value through data-driven solutions"
+      content: "Improved client response times by 20% through efficient administrative support and process optimization"
     }
   ];
 
   const expertise = [
-    "Machine Learning & AI",
-    "Statistical Modeling", 
-    "Big Data Analytics",
-    "Data Visualization",
-    "MLOps & Deployment",
-    "Business Intelligence"
+    "Virtual Assistance & Admin Support",
+    "AI Tools & Business Productivity", 
+    "Customer Service Excellence",
+    "Data Entry & Management",
+    "Web Development (HTML/CSS/JS)",
+    "Digital Content Creation"
   ];
 
   return (
@@ -42,24 +42,24 @@ const About = () => {
           {/* Left Column - Text Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About Me
+              About Antony
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                I'm a passionate data scientist with a mission to unlock the hidden potential 
-                in data and transform it into actionable business insights. With over 5 years 
-                of experience in the field, I specialize in building end-to-end machine learning 
-                solutions that drive real business impact.
+                I'm an ambitious and adaptable professional building a career in Data Science and Business. 
+                My goal is to leverage skills in AI tools, data-driven decision-making, and digital solutions 
+                to deliver actionable insights, improve business outcomes, and support organizational growth.
               </p>
               <p className="text-lg">
-                My expertise spans the entire data science lifecycle, from data collection and 
-                preprocessing to model development, deployment, and monitoring. I believe in the 
-                power of data to solve complex problems and create meaningful change in organizations.
+                With a strong background in virtual assistance, customer service, and administrative support, 
+                I bring a unique perspective to data science. My experience at Quest Holdings Limited has honed 
+                my skills in client communications, data management, and process optimization - achieving a 20% 
+                improvement in client response times.
               </p>
               <p className="text-lg">
-                When I'm not diving deep into datasets, you can find me contributing to open-source 
-                projects, mentoring aspiring data scientists, or exploring the latest developments 
-                in AI and machine learning.
+                Currently advancing through the ALX Pathway College Programme, I'm passionate about combining 
+                technology, analytics, and entrepreneurship to create innovative solutions that address real-world 
+                business challenges and drive measurable impact.
               </p>
             </div>
 
@@ -107,10 +107,10 @@ const About = () => {
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "50+", label: "Projects Completed" },
-            { number: "10M+", label: "Business Value Created" },
-            { number: "15", label: "ML Models in Production" },
-            { number: "5+", label: "Years Experience" }
+            { number: "15+", label: "Projects Completed" },
+            { number: "20%", label: "Efficiency Improvement" },
+            { number: "4", label: "Certifications Earned" },
+            { number: "2+", label: "Years Experience" }
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
