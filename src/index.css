@@ -2,41 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Data Scientist Portfolio Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    /* Background and surfaces */
+    --background: 220 15% 97%;
+    --foreground: 215 25% 15%;
+    
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 215 25% 15%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 15%;
+    
+    /* Primary brand colors - Deep blue palette */
+    --primary: 215 85% 25%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 215 85% 35%;
+    
+    /* Secondary - Teal accent */
+    --secondary: 175 70% 40%;
+    --secondary-foreground: 0 0% 98%;
+    --secondary-hover: 175 70% 50%;
+    
+    /* Muted backgrounds */
+    --muted: 215 15% 95%;
+    --muted-foreground: 215 15% 45%;
+    
+    /* Accent colors for data visualizations */
+    --accent: 185 85% 60%;
+    --accent-foreground: 215 25% 15%;
+    --accent-secondary: 285 85% 65%;
+    --accent-tertiary: 45 95% 65%;
+    
+    /* Status colors */
+    --success: 145 70% 45%;
+    --success-foreground: 0 0% 98%;
+    
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* UI elements */
+    --border: 215 15% 88%;
+    --input: 215 15% 92%;
+    --ring: 215 85% 25%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(215 85% 25%), hsl(175 70% 40%));
+    --gradient-accent: linear-gradient(135deg, hsl(185 85% 60%), hsl(285 85% 65%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 15% 97%), hsl(215 15% 95%));
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(215 25% 15% / 0.08);
+    --shadow-md: 0 4px 16px hsl(215 25% 15% / 0.12);
+    --shadow-lg: 0 8px 32px hsl(215 25% 15% / 0.16);
+    --shadow-data: 0 4px 20px hsl(185 85% 60% / 0.25);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +128,26 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  /* Custom animations */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
   }
 }
