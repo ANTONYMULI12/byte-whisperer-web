@@ -46,9 +46,9 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                I'm an ambitious and adaptable professional building a career in Data Science and Business. 
-                My goal is to leverage skills in AI tools, data-driven decision-making, and digital solutions 
-                to deliver actionable insights, improve business outcomes, and support organizational growth.
+                I'm a Bachelor of Science in Data Science student at SET Elmwood Institute, building a career 
+                in Data Science and Business. My goal is to leverage skills in AI tools, data-driven 
+                decision-making, and digital solutions to deliver actionable insights and support organizational growth.
               </p>
               <p className="text-lg">
                 With a strong background in virtual assistance, customer service, and administrative support, 
