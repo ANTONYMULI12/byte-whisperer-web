@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: Award,
       title: "Professional Training",
-      content: "BSc Data Science student at SET Elmwood Institute. ALX Pathway College Programme graduate (2025)"
+      content: "Currently pursuing BSc Data Science at SET Elmwood Institute. ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate (Zindua School)"
     },
     {
       icon: Users,
@@ -57,7 +57,7 @@ const About = () => {
                 improvement in client response times.
               </p>
               <p className="text-lg">
-                Now pursuing a BSc in Data Science at SET Elmwood Institute, I'm passionate about combining 
+                Currently pursuing a BSc in Data Science at SET Elmwood Institute, I'm passionate about combining 
                 technology, analytics, and entrepreneurship to create innovative solutions that address real-world 
                 business challenges and drive measurable impact.
               </p>
