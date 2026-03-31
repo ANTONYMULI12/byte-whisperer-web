@@ -57,7 +57,7 @@ const About = () => {
                 improvement in client response times.
               </p>
               <p className="text-lg">
-                Now pursuing a BSc in Data Science at SET Elmwood Institute, I'm passionate about combining 
+                Currently pursuing a BSc in Data Science at SET Elmwood Institute, I'm passionate about combining 
                 technology, analytics, and entrepreneurship to create innovative solutions that address real-world 
                 business challenges and drive measurable impact.
               </p>
