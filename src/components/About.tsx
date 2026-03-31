@@ -6,13 +6,13 @@ const About = () => {
   const achievements = [
     {
       icon: GraduationCap,
-      title: "Education & Certifications",
-      content: "ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate from Zindua School"
+      title: "Education",
+      content: "BSc Data Science at SET Elmwood Institute. ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate (Zindua School)"
     },
     {
       icon: Award,
       title: "Professional Training",
-      content: "Currently enrolled in ALX Pathway College Programme (2025), focusing on cloud computing and leadership"
+      content: "BSc Data Science student at SET Elmwood Institute. ALX Pathway College Programme graduate (2025)"
     },
     {
       icon: Users,
@@ -46,9 +46,9 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                I'm an ambitious and adaptable professional building a career in Data Science and Business. 
-                My goal is to leverage skills in AI tools, data-driven decision-making, and digital solutions 
-                to deliver actionable insights, improve business outcomes, and support organizational growth.
+                I'm a Bachelor of Science in Data Science student at SET Elmwood Institute, building a career 
+                in Data Science and Business. My goal is to leverage skills in AI tools, data-driven 
+                decision-making, and digital solutions to deliver actionable insights and support organizational growth.
               </p>
               <p className="text-lg">
                 With a strong background in virtual assistance, customer service, and administrative support, 
@@ -57,7 +57,7 @@ const About = () => {
                 improvement in client response times.
               </p>
               <p className="text-lg">
-                Currently advancing through the ALX Pathway College Programme, I'm passionate about combining 
+                Now pursuing a BSc in Data Science at SET Elmwood Institute, I'm passionate about combining 
                 technology, analytics, and entrepreneurship to create innovative solutions that address real-world 
                 business challenges and drive measurable impact.
               </p>
