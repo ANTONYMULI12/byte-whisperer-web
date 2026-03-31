@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: Award,
       title: "Professional Training",
-      content: "BSc Data Science student at SET Elmwood Institute. ALX Pathway College Programme graduate (2025)"
+      content: "Currently pursuing BSc Data Science at SET Elmwood Institute. ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate (Zindua School)"
     },
     {
       icon: Users,
