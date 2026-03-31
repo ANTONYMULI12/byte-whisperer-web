@@ -12,6 +12,7 @@ const Index = () => {
       <Skills />
       <About />
       <Projects />
+      <Certificates />
       <Contact />
     </div>
   );
