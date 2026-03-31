@@ -12,7 +12,7 @@ const About = () => {
     {
       icon: Award,
       title: "Professional Training",
-      content: "Currently enrolled in ALX Pathway College Programme (2025), focusing on cloud computing and leadership"
+      content: "BSc Data Science student at SET Elmwood Institute. ALX Pathway College Programme graduate (2025)"
     },
     {
       icon: Users,
