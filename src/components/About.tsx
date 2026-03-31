@@ -6,8 +6,8 @@ const About = () => {
   const achievements = [
     {
       icon: GraduationCap,
-      title: "Education & Certifications",
-      content: "ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate from Zindua School"
+      title: "Education",
+      content: "BSc Data Science at SET Elmwood Institute. ALX Virtual Assistant Programme, AI Skills Certificate, Web Development Certificate (Zindua School)"
     },
     {
       icon: Award,
