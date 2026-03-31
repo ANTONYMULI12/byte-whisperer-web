@@ -57,7 +57,7 @@ const About = () => {
                 improvement in client response times.
               </p>
               <p className="text-lg">
-                Currently advancing through the ALX Pathway College Programme, I'm passionate about combining 
+                Now pursuing a BSc in Data Science at SET Elmwood Institute, I'm passionate about combining 
                 technology, analytics, and entrepreneurship to create innovative solutions that address real-world 
                 business challenges and drive measurable impact.
               </p>

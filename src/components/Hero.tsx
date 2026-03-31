@@ -35,7 +35,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
-          Ambitious professional transitioning to Data Science, leveraging AI tools, 
+          BSc Data Science student at SET Elmwood Institute, leveraging AI tools, 
           analytics, and digital solutions to deliver actionable business insights.
         </p>
         
